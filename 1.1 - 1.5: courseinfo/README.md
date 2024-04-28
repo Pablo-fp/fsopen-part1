@@ -1,4 +1,4 @@
-#Exercises 1.1.-1.2.
+# Exercises 1.1.-1.2.
 The exercises are submitted via GitHub, and by marking the exercises as done in the "my submissions" tab of the submission application.
 
 The exercises are submitted one part at a time. When you have submitted the exercises for a part of the course you can no longer submit undone exercises for the same part.
@@ -8,7 +8,7 @@ Note that in this part, there are more exercises besides those found below. Do n
 You may submit all the exercises of this course into the same repository, or use multiple repositories. If you submit exercises of different parts into the same repository, please use a sensible naming scheme for the directories.
 
 One very functional file structure for the submission repository is as follows:
-
+´
 part0
 part1
   courseinfo
@@ -17,6 +17,7 @@ part1
 part2
   phonebook
   countriescopy
+´
 See this example submission repository!
 
 For each part of the course, there is a directory, which further branches into directories containing a series of exercises, like "unicafe" for part 1.
