@@ -8,7 +8,7 @@ Note that in this part, there are more exercises besides those found below. Do n
 You may submit all the exercises of this course into the same repository, or use multiple repositories. If you submit exercises of different parts into the same repository, please use a sensible naming scheme for the directories.
 
 One very functional file structure for the submission repository is as follows:
-´
+```
   part0
   part1
     courseinfo
@@ -17,7 +17,7 @@ One very functional file structure for the submission repository is as follows:
   part2
     phonebook
     countriescopy
-´
+```
 See this example submission repository!
 
 For each part of the course, there is a directory, which further branches into directories containing a series of exercises, like "unicafe" for part 1.
