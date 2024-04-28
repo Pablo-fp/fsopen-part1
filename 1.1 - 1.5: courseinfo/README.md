@@ -27,15 +27,16 @@ Most of the exercises of the course build a larger application, eg. courseinfo, 
 For each web application for a series of exercises, it is recommended to submit all files relating to that application, except for the directory node_modules.
 
 ## 1.1: Course Information, step 1
-The application that we will start working on in this exercise will be further developed in a few of the following exercises. In this and other upcoming exercise sets in this course, it is enough to only submit the final state of the application. If desired, you may also create a commit for each exercise of the series, but this is entirely optional.
+*The application that we will start working on in this exercise will be further developed in a few of the following exercises. In this and other upcoming exercise sets in this course, it is enough to only submit the final state of the application. If desired, you may also create a commit for each exercise of the series, but this is entirely optional.*
 
 Use Vite to initialize a new application. Modify main.jsx to match the following
-
+```
 import ReactDOM from 'react-dom/client'
 
 import App from './App'
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />)copy
+ReactDOM.createRoot(document.getElementById('root')).render(<App />)
+```
 and App.jsx to match the following
 
 const App = () => {
