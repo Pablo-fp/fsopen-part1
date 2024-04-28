@@ -9,14 +9,14 @@ You may submit all the exercises of this course into the same repository, or use
 
 One very functional file structure for the submission repository is as follows:
 ´
-part0
-part1
-  courseinfo
-  unicafe
-  anecdotes
-part2
-  phonebook
-  countriescopy
+  part0
+  part1
+    courseinfo
+    unicafe
+    anecdotes
+  part2
+    phonebook
+    countriescopy
 ´
 See this example submission repository!
 
