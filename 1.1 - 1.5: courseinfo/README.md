@@ -39,6 +39,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />)
 ```
 and App.jsx to match the following
 
+```
 const App = () => {
   const course = 'Half Stack application development'
   const part1 = 'Fundamentals of React'
@@ -65,15 +66,17 @@ const App = () => {
   )
 }
 
-export default Appcopy
+export default App
+```
 and remove the extra files App.css and index.css, also remove the directory assets.
 
-Unfortunately, the entire application is in the same component. Refactor the code so that it consists of three new components: Header, Content, and Total. All data still resides in the App component, which passes the necessary data to each component using props. Header takes care of rendering the name of the course, Content renders the parts and their number of exercises and Total renders the total number of exercises.
+Unfortunately, the entire application is in the same component. Refactor the code so that it consists of three new components: *Header*, *Content*, and *Total*. All data still resides in the App component, which passes the necessary data to each component using props. Header takes care of rendering the name of the course, Content renders the parts and their number of exercises and Total renders the total number of exercises.
 
-Define the new components in the file App.jsx.
+Define the new components in the file *App.jsx*.
 
-The App component's body will approximately be as follows:
+The *App* component's body will approximately be as follows:
 
+```
 const App = () => {
   // const-definitions
 
@@ -84,12 +87,13 @@ const App = () => {
       <Total ... />
     </div>
   )
-}copy
+}
+```
 WARNING Don't try to program all the components concurrently, because that will almost certainly break down the whole app. Proceed in small steps, first make e.g. the component Header and only when it works for sure, you could proceed to the next component.
 
 Careful, small-step progress may seem slow, but it is actually by far the fastest way to progress. Famous software developer Robert "Uncle Bob" Martin has stated
 
-"The only way to go fast, is to go well"
+> "The only way to go fast, is to go well"
 
 that is, according to Martin, careful progress with small steps is even the only way to be fast.
 
