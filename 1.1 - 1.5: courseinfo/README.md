@@ -97,9 +97,9 @@ Careful, small-step progress may seem slow, but it is actually by far the fastes
 
 that is, according to Martin, careful progress with small steps is even the only way to be fast.
 
-1.2: Course Information, step 2
+## 1.2: Course Information, step 2
 Refactor the Content component so that it does not render any names of parts or their number of exercises by itself. Instead, it only renders three Part components of which each renders the name and number of exercises of one part.
-
+```
 const Content = ... {
   return (
     <div>
@@ -108,5 +108,6 @@ const Content = ... {
       <Part .../>
     </div>
   )
-}copy
-Our application passes on information in quite a primitive way at the moment, since it is based on individual variables. We shall fix that in part 2, but before that, let's go to part1b to learn about JavaScript.
+}
+```
+Our application passes on information in quite a primitive way at the moment, since it is based on individual variables. We shall fix that in [part 2](https://fullstackopen.com/en/part2), but before that, let's go to part1b to learn about JavaScript.
